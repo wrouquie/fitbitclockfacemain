@@ -1,0 +1,27 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~5.0.0"
+  },
+  "fitbit": {
+    "appUUID": "ecee39ff-967e-48c7-8db6-f50ee661470d",
+    "appType": "clockface",
+    "appDisplayName": "Clock V1",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_heart_rate",
+      "access_activity",
+      "run_background"
+    ],
+    "buildTargets": [
+      "atlas",
+      "vulcan"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "Clock V1"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}

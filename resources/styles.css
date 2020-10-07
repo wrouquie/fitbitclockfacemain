@@ -1,0 +1,99 @@
+.background {
+  viewport-fill: black;
+}
+
+#myLabel {
+  font-size: 120;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%;
+  y: 61%;
+  fill: gray;
+
+}
+
+#batteryLabel {
+  font-size: 28;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: end;
+  x: 90%;
+  y: 15%;
+  fill: green;
+}
+
+#heartrateLabel {
+  font-size: 28;
+  font-family: System-Bold;
+  text-length: 3;
+  text-anchor: end;
+  x: 90%;
+  y: 90%;
+  fill: red;
+}
+
+#stepsLabel {
+  font-size: 28;
+  font-family: System-Bold;
+  text-length: 11;
+  text-anchor: start;
+  x: 10%;
+  y: 15%;
+  fill: white;
+}
+
+#myMonth {
+  font-size: 28;
+  font-family: System-Bold;
+  text-length: 4;
+  text-anchor: start;
+  x: 10%;
+  y: 90%;
+  fill: white;
+}
+
+#myDay {
+  font-size: 28;
+  font-family: System-Bold;
+  text-length: 5;
+  text-anchor: start;
+  x: 21%;
+  y: 90%;
+  fill: white;
+}
+
+.markercolour {
+  fill: red;
+}
+
+.accentcolour {
+  fill: black;
+}
+
+.maindialtwelve {
+  y: -48%;
+  width: 2;
+  height: 20;
+}
+
+.maindialquarter {
+  x: 0%-1;
+  y: -48%;
+  width: 3;
+  height: 20;
+}
+
+.maindialfive {
+  x: 0%-1;
+  y: -48%;
+  width: 3;
+  height: 15;
+}
+
+.maindialminute {
+  x: 0%-1;
+  y: -48%;
+  width: 3;
+  height: 5;
+}
